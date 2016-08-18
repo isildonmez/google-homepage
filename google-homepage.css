@@ -1,0 +1,154 @@
+.top{
+	width: 1250px;
+	height: 100px;
+}
+table{
+	border: none;
+	background-color: #ffffff;
+}
+td{
+	height: 5px;
+	width: 3px;
+	background-color: #616161;
+}
+.top ul{
+	list-style-type: none;
+	margin-top: 10px;
+	float: right;
+}
+.top li{
+	display: inline-block;
+	vertical-align: middle;
+}
+li{
+	display: inline;
+	padding: 10px;
+}
+li a{
+	font-family: 'Arimo', Roboto, PT Sans;
+	text-decoration: none;
+	font-size: 14px;
+	color: #616161;
+}
+#sign-in {
+	font-weight: bold;
+	background-color: #4c89ee;
+	height: 30px;
+	width: 75px;
+	border-radius: 5px;
+	border: none;
+}
+li a:hover{
+	text-decoration: underline;
+	color: black;
+}
+#sign-in a{
+	color: white;
+}
+#sign-in a:hover {
+	text-decoration: none;
+	color:white;
+}
+h1{
+	font-size: 80px;
+	font-weight: bold;
+	font-family: 'Poppins';
+	position: relative;
+	bottom: 20px;
+	left: 450px;
+	width: 300px;
+}
+h1:first-letter{
+	font-size: 95px;
+}
+.body {
+	position: relative;
+	height: 200px;
+	width: 945px;
+}
+#subtitle{
+	color: #4c89ee;
+	font-size: 15px;
+	font-family: 'Open Sans';
+	position: relative;
+	bottom: 121px;
+	width: 40px;
+	left: 680px;
+}
+body{
+	height: 700px;
+	width: 1290px;
+}
+#search-text-input{
+	width: 545px;
+	height: 42px;
+	font-size: 16px;
+	font-family: 'Arimo';
+	margin-left: 320px;
+	margin-top:  -110px;
+	padding-left: 10px;
+	border: solid 1px #e0e0e0;
+}
+#button-holder img{
+	width: 15px;
+	height: 22px;
+	margin-top: -100px;
+	margin-left: 840px;
+	cursor: pointer;
+}
+#search-text-input:hover{
+	border-color: #bdbdbd;
+}
+.body button {
+	font-weight: bold;
+	background-color: #EEEEEE;
+	color: #616161;
+	border: none;
+	height: 40px;
+	width: 130px;
+	bottom: 30;
+	left: 475px;
+	position: relative;
+	font-size: 12px;
+}
+.body button a{
+	text-decoration: none;
+}
+.body button:hover{
+	color: #424242;
+	border: 1px solid #bdbdbd;
+}
+.body button a:visited{
+	color: #616161;
+}
+#last-word{
+	word-spacing: normal;
+}
+.right a, .left a{
+	text-decoration: none;
+	color: #616161;
+}
+.left a:hover, .right a:hover{
+	text-decoration: underline;
+}
+.left{
+	padding-left: 40px;
+	display: inline;
+}
+.right{
+	margin-left: 610px;
+	display: inline;
+}
+.bottom{
+	height: 40px;
+	width: 1310px;
+	bottom: 2px;
+	left: -10px;
+	background-color: #EEEEEE;
+	position: absolute;
+	border: 1px solid #e0e0e0;
+	display: inline;
+}
+.right ul{
+	margin-top: 20px;
+}
